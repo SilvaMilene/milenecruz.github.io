@@ -43,7 +43,7 @@ img{
     float: left;
 }
 .mdl-cell.mdl-cell--3-col{
-    background-color:white;
+    background-color:#1b262c;
     border-radius: 20px;
     padding: 6px;
     align-items: center;
@@ -51,7 +51,10 @@ img{
 .mdl-cell.mdl-cell--3-col.html img{
     margin-left: 40px ;
 }
-
+.mdl-cell.mdl-cell--12-col.projects.git{
+    display: inline;
+    padding: 60px;
+}
 .mdl-cell.mdl-cell--12-col.form label, input{
     color: rgb(255, 255, 255);
 }
