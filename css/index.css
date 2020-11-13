@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 h1,h2,h3,h4,h5,p,a{
     font-family: 'Source Code Pro', monospace;
     /* font-size: 26px; */
@@ -26,10 +31,11 @@ img{
     
 } */
 .mdl-grid{
-    width: 960px;
+    /* width: 960px; */
+    
     margin: 0 auto;
     overflow: auto;
-    padding: 5px 0;
+    padding: 5px 5%;
 }
 /* .mdl-grid.projects{
    margin-right: 50px;
@@ -37,26 +43,30 @@ img{
 .mdl-grid.text{
     text-align: center;
 }
-
 .mdl-cell{
-    padding: 0 10px;
+    padding: 20px 100px;
     float: left;
 }
 .mdl-cell.mdl-cell--3-col{
-    background-color:#1b262c;
+    background-color:#222831;
     border-radius: 20px;
     padding: 6px;
     align-items: center;
 }
+.mdl-cell.mdl-cell--3-col.cell{
+    padding: 20px;
+}
 .mdl-cell.mdl-cell--3-col.html img{
     margin-left: 40px;
 }
-/* .mdl-cell.mdl-cell--12-col.projects.git{
-    display: inline;
-    padding: 60px; 
-} */
+.mdl-grid.hardSkills{
+    margin-top: 200px;
+}
+.mdl-cell.mdl-cell--12-col.projects.git{
+    padding: 40px;
+}
 .mdl-cell.mdl-cell--12-col.projects.git.git_icon{
-   height: 200px;
+    margin-left: 40px;
 }
 
 .mdl-cell.mdl-cell--12-col.form label, input{
