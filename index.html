@@ -10,41 +10,26 @@
         <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-pink.min.css" />
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
     </head>
 
     <body>
         <!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
             <!-- Uses a transparent header that draws on top of the layout's background -->
-        <style>
-            .demo-layout-transparent {
-            background: black center / cover;
-            }
-            .demo-layout-transparent .mdl-layout__header,
-            .demo-layout-transparent .mdl-layout__drawer-button {
-            /* This background is dark, so we set text to white. Use 87% black instead if
-                your background is light. */
-            color: white;
-            }
-            .mdl-layout-title, .mdl-navigation{
-                font-family: 'Source Code Pro', monospace;
-                font-size: 26px;
-            }
-        </style>
-        
+    
         <div class="demo-layout-transparent mdl-layout mdl-js-layout">
             <header class="mdl-layout__header mdl-layout__header--transparent">
                 <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <span class="mdl-layout-title">MiC</span>
+                <span class="mdl-layout-title">MC</span>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
                 <!-- Navigation -->
                 <nav class="mdl-navigation">
                     <a class="mdl-navigation__link" href="">Home</a>
-                    <a class="mdl-navigation__link" href=""></a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Projetos</a>
+                    <a class="mdl-navigation__link" href="">Contato</a>
                 </nav>
                 </div>
             </header>
@@ -58,8 +43,89 @@
                 </nav>
             </div>
             <main class="mdl-layout__content">
-            </main>
-        </div>
+                <div class="mdl-grid texto">
+                        <h3>OIá</h3>
+                        <p>
+                            Meu nome é milene, tenho 19 anos. Estou cursando
+                            a faculdade de Big Data no Agronegócio, sempre tentando 
+                            evoluir e dar o meu máximo!
+                        </p>
+                </div>
+                <div class="mdl-grid hardSkills">
+                    <h3>Algumas linguagens e ferramentas que já utilizei:</h3>
+                    <div class="mdl-cell mdl-cell--4-col">
+                        <img src="assets/logoMysql.png" alt="">
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col">
+                        <img src="assets/react.svg" alt="Logo">
+                    </div>
+                </div>
+                <div class="mdl-grid projects">
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <p>
+                            Acesse meu gitlab:
+                        </p>
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <a href="https://gitlab.com/Mille18"><img src="assets/gitlab.svg" alt="Logo"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </main>
+        <!-- <footer class="mdl-mega-footer">
+            <div class="mdl-mega-footer__middle-section">
+                <div class="mdl-mega-footer__drop-down-section">
+                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                <h1 class="mdl-mega-footer__heading">Features</h1>
+                <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Updates</a></li>
+                </ul>
+                </div>
+            
+                <!-- <div class="mdl-mega-footer__drop-down-section">
+                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                <h1 class="mdl-mega-footer__heading">Details</h1>
+                <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">Specs</a></li>
+                    <li><a href="#">Tools</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+                </div>
+            
+                <div class="mdl-mega-footer__drop-down-section">
+                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                <h1 class="mdl-mega-footer__heading">Technology</h1>
+                <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Patterns</a></li>
+                    <li><a href="#">Usage</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contracts</a></li>
+                </ul>
+                </div>
+            
+                <div class="mdl-mega-footer__drop-down-section">
+                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                <h1 class="mdl-mega-footer__heading">FAQ</h1>
+                <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">Questions</a></li>
+                    <li><a href="#">Answers</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="mdl-mega-footer__bottom-section">
+                <div class="mdl-logo">Title</div>
+                <ul class="mdl-mega-footer__link-list">
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy & Terms</a></li>
+                </ul>
+            </div>
+        </footer> --> -->
     </body>
         
 </html>

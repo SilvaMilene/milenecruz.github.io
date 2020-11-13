@@ -1,0 +1,43 @@
+h1,h2,h3,h4,h5,p,a{
+    font-family: 'Source Code Pro', monospace;
+    /* font-size: 26px; */
+}
+p{
+    font-size: 20px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* ---------------------- */
+.demo-layout-transparent {
+    background: black center ;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button,
+.mdl-layout__content  {
+/* This background is dark, so we set text to white. Use 87% black instead if
+    your background is light. */
+    color: white;
+}
+/* .demo-layout-transparent.mdl-layout.mdl-js-layout{
+    
+} */
+
+.mdl-grid{
+   margin: 40px;
+}
+.mdl-grid.texto{
+    display: block;
+}
+
+
+
+.mdl-mega-footer{
+    background-color: #010b13;
+    position:absolute;
+    bottom:0;
+    width: 1760px;
+}
