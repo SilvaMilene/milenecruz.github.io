@@ -12,6 +12,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
 
     <body>
@@ -27,13 +30,13 @@
                 <div class="mdl-layout-spacer"></div>
                 <!-- Navigation -->
                 <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="">Home</a>
-                    <a class="mdl-navigation__link" href="">Projetos</a>
-                    <a class="mdl-navigation__link" href="">Contato</a>
+                    <a class="mdl-navigation__link" href="#">Home</a>
+                    <a class="mdl-navigation__link" href="#home">Projetos</a>
+                    <a class="mdl-navigation__link" href="#contato">Contato</a>
                 </nav>
                 </div>
             </header>
-            <div class="mdl-layout__drawer">
+            <!-- <div class="mdl-layout__drawer">
                 <span class="mdl-layout-title">Title</span>
                 <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="">Link</a>
@@ -41,91 +44,92 @@
                 <a class="mdl-navigation__link" href="">Link</a>
                 <a class="mdl-navigation__link" href="">Link</a>
                 </nav>
-            </div>
+            </div> -->
             <main class="mdl-layout__content">
                 <div class="mdl-grid texto">
-                        <h3>OIá</h3>
-                        <p>
-                            Meu nome é milene, tenho 19 anos. Estou cursando
-                            a faculdade de Big Data no Agronegócio, sempre tentando 
-                            evoluir e dar o meu máximo!
-                        </p>
+                    <h3>OIá</h3>
+                    <p>
+                        Meu nome é milene, tenho 19 anos. Estou cursando
+                        a faculdade de Big Data no Agronegócio, sempre tentando 
+                        evoluir e dar o meu máximo!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet neque iure in, id eum fugiat aliquam esse a possimus 
+                        nihil consequuntur. Blanditiis nostrum, similique itaque nobis 
+                        nihil magni quod veritatis.
+                    </p>
                 </div>
                 <div class="mdl-grid hardSkills">
                     <h3>Algumas linguagens e ferramentas que já utilizei:</h3>
-                    <div class="mdl-cell mdl-cell--4-col">
+                    <div class="mdl-cell mdl-cell--6-col" data-aos="flip-left">
                         <img src="assets/logoMysql.png" alt="">
                     </div>
-                    <div class="mdl-cell mdl-cell--4-col">
+                    <div class="mdl-cell mdl-cell--6-col" data-aos="flip-left">
                         <img src="assets/react.svg" alt="Logo">
                     </div>
                 </div>
-                <div class="mdl-grid projects">
-                    <div class="mdl-cell mdl-cell--6-col">
+                <div class="mdl-grid projects" id="contato">
+                    <div class="mdl-cell mdl-cell--12-col">
                         <p>
                             Acesse meu gitlab:
                         </p>
                         <div class="mdl-cell mdl-cell--6-col">
                             <a href="https://gitlab.com/Mille18"><img src="assets/gitlab.svg" alt="Logo"></a>
-                            
                         </div>
                     </div>
                 </div>
            </div>
-        </main>
-        <!-- <footer class="mdl-mega-footer">
-            <div class="mdl-mega-footer__middle-section">
-                <div class="mdl-mega-footer__drop-down-section">
-                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                <h1 class="mdl-mega-footer__heading">Features</h1>
-                <ul class="mdl-mega-footer__link-list">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Partners</a></li>
-                    <li><a href="#">Updates</a></li>
-                </ul>
-                </div>
-            
-                <!-- <div class="mdl-mega-footer__drop-down-section">
-                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                <h1 class="mdl-mega-footer__heading">Details</h1>
-                <ul class="mdl-mega-footer__link-list">
-                    <li><a href="#">Specs</a></li>
-                    <li><a href="#">Tools</a></li>
-                    <li><a href="#">Resources</a></li>
-                </ul>
-                </div>
-            
-                <div class="mdl-mega-footer__drop-down-section">
-                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                <h1 class="mdl-mega-footer__heading">Technology</h1>
-                <ul class="mdl-mega-footer__link-list">
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Patterns</a></li>
-                    <li><a href="#">Usage</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contracts</a></li>
-                </ul>
-                </div>
-            
-                <div class="mdl-mega-footer__drop-down-section">
-                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                <h1 class="mdl-mega-footer__heading">FAQ</h1>
-                <ul class="mdl-mega-footer__link-list">
-                    <li><a href="#">Questions</a></li>
-                    <li><a href="#">Answers</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
-                </div>
+           <form action="#" class="form">
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="sample1">
+                <label class="mdl-textfield__label" for="sample1">Text...</label>
             </div>
-            <div class="mdl-mega-footer__bottom-section">
-                <div class="mdl-logo">Title</div>
-                <ul class="mdl-mega-footer__link-list">
+            </form>
+            <!-- Numeric Textfield -->
+            <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+                <label class="mdl-textfield__label" for="sample2">Number...</label>
+                <span class="mdl-textfield__error">Int is not a number!</span>
+            </div>
+        </form>
+        <div class="mdl-cell mdl-cell--12-col form">
+            <h2>Entre em contato:</h2>
+            <form action="">
+              <label for="nome">Seu nome:</label>
+              <input type="text" nome="nome" id="nome">
+  
+              <label for="email">Seu email:</label>
+              <input type="text" nome="email" id="email">
+  
+              <label for="assunto">Assunto:</label>
+              <input type="text" nome="assunto" id="assunto">
+  
+              <label for="mensagem">Mensagem:</label>
+              <textarea name="mensagem" id="mensagem" cols="30" rows="20"></textarea>
+  
+              <input type="submit" class="botao" name="enviar" value="enviar mensagem &raquo;">
+            </form>
+          </div>
+          <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+              <div class="mdl-logo">Title</div>
+              <ul class="mdl-mini-footer__link-list">
                 <li><a href="#">Help</a></li>
                 <li><a href="#">Privacy & Terms</a></li>
-                </ul>
+              </ul>
             </div>
-        </footer> --> -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+          </footer>
+          
+        </main>
+        <!-- Simple Textfield -->
+        
+      
+       
     </body>
         
 </html>
