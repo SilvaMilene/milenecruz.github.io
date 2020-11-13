@@ -42,9 +42,20 @@ img{
     padding: 0 10px;
     float: left;
 }
-.mdl-cell mdl-cell--12-col.form label, input{
+.mdl-cell.mdl-cell--3-col{
+    background-color:white;
+    border-radius: 20px;
+    padding: 6px;
+    align-items: center;
+}
+.mdl-cell.mdl-cell--3-col.html img{
+    margin-left: 40px ;
+}
+
+.mdl-cell.mdl-cell--12-col.form label, input{
     color: rgb(255, 255, 255);
 }
+
 .mdl-layout__content{
     padding: 40px 20px 40px 20px;
     float: left;
