@@ -1,77 +1,113 @@
-h1,h2,h3,h4,h5,p,a{
-    font-family: 'Source Code Pro', monospace;
-    /* font-size: 26px; */
-}
-p{
+*{
+    padding: 0;
+    margin: 0;
+  }
+  p{
     font-size: 20px;
-}
-img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-/* ---------------------- */
-.demo-layout-transparent {
-    background: black center ;
-}
-
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button,
-.mdl-layout__content  {
-/* This background is dark, so we set text to white. Use 87% black instead if
-    your background is light. */
-    color: white;
-}
-/* .demo-layout-transparent.mdl-layout.mdl-js-layout{
-    
-} */
-.mdl-grid{
-    width: 960px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 5px 0;
-}
-/* .mdl-grid.projects{
-   margin-right: 50px;
-} */
-.mdl-grid.text{
-    text-align: center;
-}
-
-.mdl-cell{
-    padding: 0 10px;
-    float: left;
-}
-.mdl-cell.mdl-cell--3-col{
-    background-color:white;
-    border-radius: 20px;
-    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  i{
+    font-size: 30px;
+    color: #000000;
+  }
+  body{
+    color: black;
+    background-color: #f0f0f5;
+  }
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 30px; */
+    background-color: #000000;
     align-items: center;
-}
-.mdl-cell.mdl-cell--3-col.html img{
-    margin-left: 40px ;
-}
-
-.mdl-cell.mdl-cell--12-col.form label, input{
-    color: rgb(255, 255, 255);
-}
-
-.mdl-layout__content{
-    padding: 40px 20px 40px 20px;
-    float: left;
-}
-.mdl-mega-footer{
-    bottom: 0;
     position: fixed;
-    width: 90%;
+    top: 0;
+  }
+  /* header .logo{
+    margin-left: 16px;
+  } */
+  header .logo{
+    padding: 10px;
+  }
+  header .logo img{
+    border-radius: 360px;
+    width: 80px;
+    /* margin: 8px 16px 8px 16px; */
+  }
+  nav{
+    margin-right: 16px;
+  }
+  nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+  }
+  nav ul li:first-child {
+    margin: 0;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+  section #sobre, .projetos, .contato{
+    padding: 30% 0 30% 0;
+  }
+  section{
+    width: 100%;
+    background-color: #6964E2;
+  }
+  section .apresentationBox{
+    padding: 0 15%;
+  }
+  
+  section .sobre h2{
     text-align: center;
-}
-
-
-
-/* .mdl-mega-footer{
-    background-color: #010b13;
-    position:absolute;
-    bottom:0;
-    width: 1760px;
-} */
+   }
+  section .sobre p, .projetos p{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-align: center;
+  }
+  /* section .projetos{
+    background-color: #6c63ff;
+  } */
+  section .projetos i, .contato i{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;          
+    padding: 30px;
+    /* background-color: white;
+    border-radius: 180px; */
+  }
+  /* section .contato{
+    padding: 360px 0 360px 0;
+  } */
+  footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 30px; */
+    background-image: linear-gradient(to right,#f8a4d8, #6c63ff);
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+  }
+  footer p{
+    color: white;
+    font-size: 12px;
+  }
+  footer .componentes i{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    justify-content: space-between;
+    padding: 16px 36px 16px 8px;
+  
+  }
